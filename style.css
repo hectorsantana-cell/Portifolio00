@@ -1,0 +1,19 @@
+a p{
+    background-color: blueviolet;
+    width: 30%;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 15px auto;
+}
+a p:hover{
+    background-color: brown;
+    transform: scale(1.2);
+}
+body{
+    text-align: center;
+}
