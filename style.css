@@ -1,19 +1,26 @@
-a p{
-    background-color: blueviolet;
+body {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.895);
+}
+h1 {
+    color: white;
+    margin-top: 20px;
+}
+
+a p {
+    background-color: rgba(247, 245, 248, 0.775);
     width: 30%;
     padding: 15px 0;
     text-align: center;
-    color: white;
+    color: rgb(28, 26, 26);
     font-weight: bold;
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
     margin: 15px auto;
 }
-a p:hover{
-    background-color: brown;
+
+a p:hover {
+    background-color: rgb(71, 42, 165);
     transform: scale(1.2);
-}
-body{
-    text-align: center;
 }
