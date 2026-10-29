@@ -1,9 +1,9 @@
 a p{
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     width: 30%;
     padding: 15px 0;
     text-align: center;
-    color: white;
+    color: rgb(15, 1, 1);
     font-weight: bold;
     border-radius: 5px;
     transition: 1s all;
@@ -11,9 +11,25 @@ a p{
     margin: 15px auto;
 }
 a p:hover{
-    background-color: brown;
+    background-color: rgb(51, 0, 146);
     transform: scale(1.2);
 }
 body{
     text-align: center;
+    background-color: rgb(19, 23, 32);
+}
+h1{
+    color: #fff;
+}
+footer{
+    color: #fff;
+    background-color: aqua;
+    padding: 14px;
+}
+main{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    padding: 100px;
+    margin: 54px
 }
