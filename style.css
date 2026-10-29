@@ -1,12 +1,12 @@
 a p{
     background-color: rgb(255, 255, 255);
-    width: 30%;
+    width: 40%;
     padding: 15px 0;
     text-align: center;
     color: rgb(15, 1, 1);
     font-weight: bold;
     border-radius: 5px;
-    transition: 1s all;
+    transition: 2s ;
     cursor: pointer;
     margin: 15px auto;
 }
@@ -22,14 +22,15 @@ h1{
     color: #fff;
 }
 footer{
-    color: #fff;
-    background-color: aqua;
+    color: #221f1f;
+    background-color: rgb(242, 248, 248);
     padding: 14px;
+    text-align: center;
 }
 main{
     display: flex;
     font-family: sans-serif;
     flex-direction: column;
     padding: 100px;
-    margin: 54px
+    margin:89px
 }
