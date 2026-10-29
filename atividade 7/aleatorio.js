@@ -7,4 +7,7 @@ function aleatorio() {
 
     let mostar = document.getElementById("resultado");
     mostar.innerHTML = `<p>Acabei de pensar no número ${num}.</p>`
+if(num === 67) {
+    mostar.innerHTML = `<p>Você é burro</p>`
+}else{}
 }
