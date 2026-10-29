@@ -17,6 +17,9 @@ a p:hover{
 body{
     text-align: center;
     background-color: rgb(19, 23, 32);
+    background-image: url(play.webp);
+    background-repeat: no-repeat ;
+
 }
 h1{
     color: #fff;
